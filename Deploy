@@ -11,4 +11,7 @@ em Start command: gunicorn main:app
 pip install gunicorn
 pip freeze > requirements.txt
 
+caso hajam bibliotecas no que o render não encontrou, apagar a versão no requirements.txt e deixar
+apenas o nome da biblioteca
+
 
