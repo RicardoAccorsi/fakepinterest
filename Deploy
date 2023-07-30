@@ -9,9 +9,16 @@ Botar nome
 em Start command: gunicorn main:app
 
 pip install gunicorn
+pip install psycopg2
 pip freeze > requirements.txt
 
 caso hajam bibliotecas no que o render não encontrou, apagar a versão no requirements.txt e deixar
 apenas o nome da biblioteca
+
+Criar novo banco de dados: new -> postgreSQL
+
+dar um nome ao novo banco de dados e clicar em create
+
+criar variavel de ambiente com url interno do banco de dados (deve começar com postgresql)
 
 
