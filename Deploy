@@ -1,0 +1,14 @@
+Render
+
+dashboard.render.com
+
+New -> web service
+
+Botar nome
+
+em Start command: gunicorn main:app
+
+pip install gunicorn
+pip freeze > requirements.txt
+
+
